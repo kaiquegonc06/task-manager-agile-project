@@ -2,26 +2,44 @@
 
 ## Descrição
 
-Projeto desenvolvido para a disciplina de Engenharia de Software com o objetivo de criar um sistema simples de gerenciamento de tarefas utilizando metodologias ágeis.
+Projeto desenvolvido para a disciplina de Engenharia de Software com foco na aplicação prática de conceitos de desenvolvimento ágil, controle de versão e qualidade de software.
 
 ## Objetivo
 
-Permitir que usuários realizem o gerenciamento de tarefas através de operações básicas de cadastro e consulta.
+Criar um sistema para gerenciamento de tarefas que permita acompanhar atividades de uma equipe de forma simples e organizada.
+
+## Funcionalidades
+
+- Criar tarefas
+- Listar tarefas
+- Atualizar tarefas
+- Remover tarefas
+
+## Metodologia Utilizada
+
+Foi utilizada a metodologia Kanban para organização e acompanhamento das atividades através do GitHub Projects.
 
 ## Tecnologias Utilizadas
 
 - Python
 - Git
 - GitHub
+- Pytest
+- GitHub Actions
 
 ## Estrutura do Projeto
 
 ```
 src/
+├── app.py
+├── task_manager.py
+
 tests/
+├── test_task_manager.py
+
 docs/
 ```
 
 ## Status
 
-Em desenvolvimento.
+Funcionalidades principais concluídas.
